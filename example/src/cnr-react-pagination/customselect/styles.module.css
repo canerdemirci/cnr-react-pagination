@@ -1,0 +1,36 @@
+.customSelect {
+    position: relative;
+    min-width: 1rem;
+    cursor: pointer;
+}
+    .customSelect:hover.customSelect > div:nth-child(2) {
+        display: block;
+    }
+    .customSelect > div {
+        display: flex;
+        justify-content: space-between;
+    }
+    .customSelect > div > span {
+        padding: 0 .3rem;
+    }
+    .customSelect > div:nth-child(2) {
+        display: none;
+        position: absolute;
+        z-index: 999;
+        top: 100%;
+        border-radius: 5px;
+        border: 1px solid #4f4f4f;
+        background-color: #fff;
+        max-height: 200px;
+        overflow-y: auto;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
+    }
+    .customSelect > div:nth-child(2) div {
+        padding: .3rem 1rem .3rem .3rem;
+        border-bottom: 1px solid #4f4f4f;
+        font-size: .8rem;
+        color: #000;
+    }
+    .customSelect > div:nth-child(2) div:hover {
+        background-color: #e0dfdf;
+    }

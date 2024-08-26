@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.dataTable {
+  width: 80%;
+  margin: 1rem auto;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.dataTable thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.dataTable th,
+.dataTable td {
+  padding: 4px 5px;
+}
+
+.dataTable tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.dataTable tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.dataTable tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.dataTable tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.pagination_3_pageBtn {
+  background: linear-gradient(0deg, rgba(121,9,110,1) 20%, rgba(255,0,161,1) 80%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 3rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1rem;
+  height: 1.8rem;
+  border: 1px solid #c809c8;
+}
+.pagination_3_pageBtn:last-child {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.pagination_3_pageBtn:first-child {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.pagination_3_pageBtn:hover {
+  background: linear-gradient(180deg, rgba(255,229,4,1) 20%, rgba(255,156,0,1) 80%);
+  border-color: #c809c8;
+  color: #3e3e3e;
+}
+.pagination_3_pageBtn_selected {
+  background: linear-gradient(180deg, rgba(254,4,255,1) 20%, rgba(255,0,110,1) 80%);
+  border-color: #690694;
+  border-radius: 5px;
+  color: #fff;
+  transform: scale(1.3);
+  transform-origin: center;
+  transition-duration: 500ms;
+}
+.pagination_3_infosection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  padding-left: .3rem;
+  padding-right: .5rem;
+  margin-left: .5rem;
+  height: 1.8rem;
+  border-radius: 10px;
+  background: linear-gradient(0deg, rgba(121,9,110,1) 20%, rgba(255,0,161,1) 80%);
+  color: #fff;
+}
+.pagination_3_infosection span {
+font-size: .8rem;
+}
+
+.pagination_4_pageBtn {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  border: 1px solid #e2d1c3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 2.5rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-style: italic;
+  font-size: .8rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin: 0 .2rem;
+  transition: 500ms ease-in-out;
+}
+.pagination_4_pageBtn:last-child {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.pagination_4_pageBtn:first-child {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.pagination_4_pageBtn:hover {
+  background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+  border: 1px solid #c3c3c3;
+}
+.pagination_4_pageBtn_selected {
+  background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+  border-color: #026c89;
+  border-radius: 5px;
+  width: 3rem;
+}
+.pagination_4_infosection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    padding-left: .3rem;
+    padding-right: .5rem;
+    margin-left: .5rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: 1px solid #e2d1c3;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    color: #000;
+}
+.pagination_4_infosection span {
+  font-size: .8rem;
+}
+
+.pagination_5_pageBtn {
+  font-family: "Dancing Script", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 2rem;
+  text-decoration: none;
+  color: #2e2e2e;
+  font-size: .8rem;
+  height: 1.4rem;
+  border-radius: 5px;
+  border: 1px solid #d1d1d1;
+  margin: 0 .2rem;
+}
+.pagination_5_pageBtn:last-child {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.pagination_5_pageBtn:first-child {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.pagination_5_pageBtn:hover {
+  border-color: #000;
+}
+.pagination_5_pageBtn_selected {
+  background-color: #3e3e3e;
+  color: #fff;
+}
+.pagination_5_infosection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  padding-left: .3rem;
+  padding-right: .5rem;
+  margin-left: .5rem;
+  height: 1.4rem;
+  border-radius: 10px;
+  border: 1px solid #d1d1d1;
+  color: #000;
+}
+.pagination_5_infosection span {
+  font-size: .8rem;
+}
