@@ -1,6 +1,6 @@
 {
   "name": "cnr-react-pagination",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Customizable React Pagination Component (Typescript)",
   "author": "Caner Demirci <caner.demirci@outlook.com>",
   "license": "MIT",
