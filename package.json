@@ -1,6 +1,6 @@
 {
   "name": "cnr-react-pagination",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Customizable React Pagination Component (Typescript)",
   "author": "Caner Demirci <caner.demirci@outlook.com>",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.13.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
